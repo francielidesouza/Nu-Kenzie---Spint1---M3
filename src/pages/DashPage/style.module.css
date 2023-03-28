@@ -1,0 +1,38 @@
+@import "../../styles/index.css";
+
+.mainPage {
+  font-family: var(--font-family);
+  height: 90vh;
+  min-width: 390px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 50px;
+  background-color: #ffffff;
+}
+
+.sectionForm,
+.sectionResume {
+  height: 70vh;
+  min-width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sectionResume {
+  height: 0;
+  justify-content: flex-start;
+}
+
+@media (min-width: 1000px) {
+  .mainPage {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

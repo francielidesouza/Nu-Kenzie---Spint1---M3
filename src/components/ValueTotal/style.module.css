@@ -1,0 +1,39 @@
+@import "../../styles/index.css";
+
+.containerValueTotal {
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+
+  border: 2px solid var(--grey-2);
+  padding: 15px 20px;
+}
+
+.containerValue {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionValue,
+.totalBalance {
+  font-family: var(--font-family);
+  color: var(--grey-4);
+  font-size: var(--font-size-3);
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.totalBalance {
+  color: var(--brand-1);
+}
+
+.informationOfBalance {
+  font-family: var(--font-family);
+  color: var(--grey-3);
+  font-size: var(--font-size-3);
+  font-weight: 400;
+  line-height: 22px;
+}

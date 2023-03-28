@@ -1,0 +1,36 @@
+.containerResumeFinance {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.titleTwo {
+  font-family: var(--font-family);
+  color: var(--grey-4);
+  font-size: var(--font-size-3);
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.listCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerListCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleDescription {
+  font-family: var(--font-family);
+  color: #343a40;
+  font-size: var(--font-size-2);
+  font-weight: 700;
+  line-height: 34px;
+}
